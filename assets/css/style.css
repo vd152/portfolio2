@@ -273,6 +273,9 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 992px) {
   #hero {
+    background: url("../img/bghero.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     text-align: center;
   }
   #hero h1 {
