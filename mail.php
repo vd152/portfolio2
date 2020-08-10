@@ -8,4 +8,5 @@ $subject = $_POST['subject'];
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
 echo "Thank You!";
+header("Location: vidhiangrish.me");
 ?>
