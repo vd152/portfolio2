@@ -133,6 +133,10 @@
     offset: '80%'
   });
 
+  $('.percinfo').click(function(){
+    $('.perc-info').removeClass('no-display');
+  });
+
   // Init AOS
   function aos_init() {
     AOS.init({
