@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body::-webkit-scrollbar {
-  width: 0.5em;
+  width: 0.2em;
 }
  
 body::-webkit-scrollbar-track {
@@ -30,7 +30,6 @@ body::-webkit-scrollbar-track {
  
 body::-webkit-scrollbar-thumb {
   background-color: #43E08E;
-  border-radius: 50%;
   outline: 1px solid rgba(112, 128, 144, 0);
 }
 /*--------------------------------------------------------------
