@@ -7,6 +7,7 @@ import About from '../components/Sections/About'
 import Resume from '../components/Sections/Resume';
 import Portfolio from '../components/Sections/Portfolio';
 import Contact from '../components/Sections/Contact';
+import Skills from '../components/Sections/Skills';
 
 const routes = (
   <Router>
@@ -14,6 +15,7 @@ const routes = (
       <Switch>
         <Route exact path='/' component={()=><Home content={ <Hero />} />} />
         <Route exact path='/about' component={()=><Home content={ <Main><About /></Main>} />} />
+        <Route exact path='/skills' component={()=><Home content={ <Main><Skills /></Main>} />} />
         <Route exact path='/resume' component={()=><Home content={ <Main><Resume /></Main>} />} />
         <Route exact path='/portfolio' component={()=><Home content={ <Main><Portfolio /></Main>} />} />
         <Route exact path='/contact' component={()=><Home content={ <Main><Contact /></Main>} />} />

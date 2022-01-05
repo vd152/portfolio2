@@ -1,4 +1,15 @@
-
+/* :root {
+  --background: white;
+  --text-primary: black;
+  --text-secondary: #43E08E;
+  --accent: purple;
+}
+[data-theme='dark'] {
+  --background: black;
+  --text-primary: white;
+  --text-secondary: grey;
+  --accent: darkred;
+} */
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -297,7 +308,7 @@ section {
 }
 
 .section-title {
-  text-align: center;
+  text-align: left;
   padding-bottom: 30px;
 }
 
@@ -319,7 +330,7 @@ section {
   height: 3px;
   background: #2db16d;
   bottom: 1px;
-  left: calc(50% - 20px);
+  /* left: calc(50% - 20px); */
 }
 
 
@@ -791,7 +802,7 @@ section {
   font-size: 15;
   font-style: italic;
   padding: 0;
-  margin: 0 0 40px 0;
+  margin: 0 0 10px 0;
 }
 
 #footer .social-links {

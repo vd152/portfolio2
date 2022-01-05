@@ -3,7 +3,7 @@ import React from 'react';
 export default class Skills extends React.Component {
     render(){
         return (
-            <section id="skills" className="skills section-bg">
+            <section id="skills" className="skills section-bg" style={{minHeight: "75vh"}}>
               <div className="container" data-aos="fade-up">
                 <div className="section-title">
                   <h2>Skills</h2>

@@ -17,6 +17,7 @@ class Hero extends React.Component {
   componentWillUnmount() {
     clearInterval(this.timeout);
   }
+
   render() {
     let text = textArray[this.state.textIdx % textArray.length];
 
