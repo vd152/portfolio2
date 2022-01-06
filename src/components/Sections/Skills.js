@@ -1,7 +1,7 @@
 import React from "react";
 import ProgressBar from "@ramonak/react-progress-bar";
 
-export default class Skills extends React.Component {
+class Skills extends React.Component {
   state = {
     skills: [
       {
@@ -44,7 +44,7 @@ export default class Skills extends React.Component {
       <section
         id="skills"
         className="skills section-bg"
-        style={{ minHeight: "75vh" }}
+        style={{ minHeight: "85vh" }}
       >
         <div className="container" data-aos="fade-up">
           <div className="section-title">
@@ -86,3 +86,4 @@ export default class Skills extends React.Component {
     );
   }
 }
+export default (Skills)

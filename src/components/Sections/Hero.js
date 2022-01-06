@@ -1,10 +1,19 @@
 import React from "react";
+import {withRouter} from 'react-router-dom'
 const textArray = ["Developer", "Designer", "Freelancer"];
 
 class Hero extends React.Component {
   constructor() {
     super();
     this.state = { textIdx: 0 };
+    // window.addEventListener('scroll', this.handleScroll)
+  }
+  handleScroll = (e) => {
+    const el = e.target.documentElement;
+    const bottom = Math.floor(el.scrollHeight - el.scrollTop) === Math.floor(el.clientHeight)-1;
+    if (bottom) {
+      this.props.history.push('/about')
+     }
   }
 
   componentDidMount() {
@@ -33,4 +42,4 @@ class Hero extends React.Component {
     );
   }
 }
-export default Hero;
+export default withRouter(Hero);

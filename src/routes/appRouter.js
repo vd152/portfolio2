@@ -8,10 +8,12 @@ import Resume from '../components/Sections/Resume';
 import Portfolio from '../components/Sections/Portfolio';
 import Contact from '../components/Sections/Contact';
 import Skills from '../components/Sections/Skills';
+import ScrollToTop from '../components/ScrollToTop';
 
 const routes = (
   <Router>
     <React.Fragment>
+      <ScrollToTop />
       <Switch>
         <Route exact path='/' component={()=><Home content={ <Hero />} />} />
         <Route exact path='/about' component={()=><Home content={ <Main><About /></Main>} />} />
