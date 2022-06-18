@@ -37,15 +37,11 @@ class About extends React.Component {
                   <ul>
                     <li>
                       <i className="icofont-rounded-right" />{" "}
-                      <strong>Birthday:</strong> 15 Feb 2000
+                      <strong>Email:</strong> vidhi152@gmail.com
                     </li>
                     <li>
                       <i className="icofont-rounded-right" />{" "}
                       <strong>Website:</strong> www.vidhiangrish.com
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right" />{" "}
-                      <strong>Phone:</strong> +91 9205050225
                     </li>
                     <li>
                       <i className="icofont-rounded-right" />{" "}
@@ -62,10 +58,6 @@ class About extends React.Component {
                     <li>
                       <i className="icofont-rounded-right" />{" "}
                       <strong>Degree:</strong> Bachelor of Technology
-                    </li>
-                    <li>
-                      <i className="icofont-rounded-right" />{" "}
-                      <strong>Email:</strong> vidhi152@gmail.com
                     </li>
                     <li>
                       <i className="icofont-rounded-right" />{" "}

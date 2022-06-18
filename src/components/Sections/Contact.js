@@ -17,9 +17,9 @@ export default class Contact extends React.Component {
                       <p>vidhiangrish.dev@gmail.com</p>
                     </div>
                     <div className="phone">
-                      <i className="icofont-phone" />
-                      <h4>Call:</h4>
-                      <p>+91 9205050225</p>
+                      <i className="icofont-linkedin" />
+                      <h4>Connect:</h4>
+                      <a href="https://linkedin.com/in/vidhi-angrish" target="_blank"><p>linkedin.com/in/vidhi-angrish1</p></a>
                     </div>
                   </div>
                 </div>

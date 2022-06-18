@@ -9,8 +9,8 @@ export default class Resume extends React.Component {
         subtitle:
           "Maharaja Surajmal Institute of Technology, GGSIPU, New Delhi",
         points: [
-          "CGPA: 9.18 (Cumulative till sixth semester)",
-          "Percentage: 85.95%",
+          "CGPA: 9.25 (till 7th semester)",
+          "Percentage: 86.8%",
         ],
       },
       {
@@ -28,6 +28,14 @@ export default class Resume extends React.Component {
     ],
     work: [
       {
+        title: "Winter Intern - Technology",
+        timeline: "Jan 2022 - June 2022",
+        subtitle: "BNY Mellon",
+        points: [
+          " Working in Technology Services Group under the App Engine Team (PaaS) using technologies such as Envoy Proxy, Docker, Golang, MongoDB, etc.",
+        ],
+      },
+      {
         title: "Software Engineering Intern",
         timeline: "June 2021 - July 2021",
         subtitle: "IHS Markit",
@@ -35,17 +43,6 @@ export default class Resume extends React.Component {
           "Worked with AutomotiveMastermind, business unit of IHS Markit",
           "Contributed to the development of the sales product using C#, .NET and MongoDB.",
           "Created unit and integration tests using xUnit",
-        ],
-      },
-      {
-        title: "Front End Development Intern",
-        timeline: "June 2020",
-        subtitle: "Viral Again",
-        points: [
-          "Revamped the existing company website.",
-          "Designed and developed a portfolio website for the owner.",
-          "Utilized HTML, CSS, JavaScript and Bootstrap for designing.",
-          "Collaborated with back-end developer to implement and improve features.",
         ],
       },
       {
@@ -156,24 +153,12 @@ export default class Resume extends React.Component {
                   </div>
                 );
               })}
-              <div className="resume-item">
-                <h4>ENVA - College Festival 2020</h4>
-                <h5>Dec 2019 – Jan 2020</h5>
-                <p>
-                  <em>MSIT, New Delhi</em>
-                </p>
-                <ul>
-                  <li>Front-end website development for college fest. </li>
-                  <li>Utilized HTML, CSS and JavaScript for designing.</li>
-                  <li>Designed five pages for the website using Bootstrap.</li>
-                </ul>
-              </div>
             </div>
             <div className="col-12 text-center">
               <h3 className="resume-title">
                 Download Resume -{" "}
                 <a
-                  href="assets/img/Resume_Vidhi_Angrish.pdf"
+                  href="assets/img/Vidhi_Angrish_Resume.pdf"
                   target="_blank"
                   download="Resume_VidhiAngrish.pdf"
                 >

@@ -19,7 +19,7 @@ const routes = (
         <Route exact path='/about' component={()=><Home content={ <Main><About /></Main>} />} />
         <Route exact path='/skills' component={()=><Home content={ <Main><Skills /></Main>} />} />
         <Route exact path='/resume' component={()=><Home content={ <Main><Resume /></Main>} />} />
-        <Route exact path='/portfolio' component={()=><Home content={ <Main><Portfolio /></Main>} />} />
+        {/* <Route exact path='/portfolio' component={()=><Home content={ <Main><Portfolio /></Main>} />} /> */}
         <Route exact path='/contact' component={()=><Home content={ <Main><Contact /></Main>} />} />
       </Switch>
     </React.Fragment>

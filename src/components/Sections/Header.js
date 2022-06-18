@@ -73,7 +73,7 @@ class Header extends React.Component {
                   <i className="bx bx-file-blank" /> <span>Resume</span>
                 </Link>
               </li>
-              <li
+              {/* <li
                 className={
                   window.location.pathname === "/portfolio" ? "active" : ""
                 }
@@ -82,7 +82,7 @@ class Header extends React.Component {
                 <Link to="/portfolio">
                   <i className="bx bx-book-content" /> <span>Portfolio</span>
                 </Link>
-              </li>
+              </li> */}
               <li
                 className={
                   window.location.pathname === "/contact" ? "active" : ""
