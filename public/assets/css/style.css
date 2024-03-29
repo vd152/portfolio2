@@ -19,7 +19,7 @@ body {
 }
 
 a {
-  color: #43E08E;
+  color: #43e08e;
 }
 
 a:hover {
@@ -27,20 +27,25 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
 }
 
 body::-webkit-scrollbar {
   width: 0.2em;
 }
- 
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 0 0 6px rgba(247, 183, 218, 0.582);
 }
- 
+
 body::-webkit-scrollbar-thumb {
-  background-color: #43E08E;
+  background-color: #43e08e;
   outline: 1px solid rgba(112, 128, 144, 0);
 }
 /*--------------------------------------------------------------
@@ -54,7 +59,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #39CF81;
+  background: #39cf81;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -72,7 +77,6 @@ body::-webkit-scrollbar-thumb {
   background: #197546;
   transition: background 0.2s ease-in-out;
 }
-
 
 /*--------------------------------------------------------------
 # Disable aos animation delay on mobile devices
@@ -162,25 +166,30 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-.nav-menu a:hover, .nav-menu .active > a{
+.nav-menu a:hover,
+.nav-menu .active > a {
   color: #fff;
-  background: #39CF81;
+  background: #39cf81;
 }
 
-.nav-menu li:hover > a{
+.nav-menu li:hover > a {
   background: #197546;
 }
 
-.nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
+.nav-menu a:hover span,
+.nav-menu .active > a span,
+.nav-menu li:hover > a span {
   color: #fff;
 }
 
-.nav-menu a:hover, .nav-menu li:hover > a {
+.nav-menu a:hover,
+.nav-menu li:hover > a {
   width: 100%;
   color: #fff;
 }
 
-.nav-menu a:hover span, .nav-menu li:hover > a span {
+.nav-menu a:hover span,
+.nav-menu li:hover > a span {
   display: block;
 }
 
@@ -203,7 +212,7 @@ body::-webkit-scrollbar-thumb {
 .mobile-nav-toggle i {
   color: #45505b;
 }
-@media (min-width: 1000px){
+@media (min-width: 1000px) {
   .mobile-nav-toggle {
     display: none;
   }
@@ -218,7 +227,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #39CF81;
+  color: #39cf81;
 }
 
 /*--------------------------------------------------------------
@@ -265,7 +274,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #hero p span {
-  color: #39CF81;
+  color: #39cf81;
   letter-spacing: 1px;
 }
 
@@ -328,7 +337,7 @@ section {
 }
 
 .section-title h2::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 40px;
@@ -337,7 +346,6 @@ section {
   bottom: 1px;
   /* left: calc(50% - 20px); */
 }
-
 
 .section-title p {
   margin-bottom: 0;
@@ -364,7 +372,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #39CF81;
+  color: #39cf81;
 }
 
 .about .content p:last-child {
@@ -399,29 +407,29 @@ section {
   background: #f2f3f5;
 }
 
-.skills i{
-  color: #fff
+.skills i {
+  color: #fff;
 }
-.skill-text{
+.skill-text {
   font-weight: 600;
-  color: #728394
+  color: #728394;
 }
 .progress-bar-wrap div:first-child {
-  background-color: #39CF81 !important;
+  background-color: #39cf81 !important;
   height: 10px !important;
 }
-.progress-bar-wrap div:first-child span{
-  display: none !important
+.progress-bar-wrap div:first-child span {
+  display: none !important;
 }
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
-  background-color: #39CF81;
+  transition: 0.9s;
+  background-color: #39cf81;
 }
 
-.no-display{
-  display:none;
+.no-display {
+  display: none;
 }
 /*--------------------------------------------------------------
 # Resume
@@ -437,7 +445,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #39CF81;
+  border-left: 2px solid #39cf81;
   position: relative;
 }
 
@@ -447,7 +455,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #39CF81;
+  color: #39cf81;
   margin-bottom: 10px;
 }
 
@@ -481,14 +489,13 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #39CF81;
+  border: 2px solid #39cf81;
 }
 
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
-  
   margin-bottom: 30px;
 }
 
@@ -515,7 +522,8 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
   color: #197546;
 }
 
@@ -603,7 +611,7 @@ section {
   margin: 0;
 }
 
-.portfolio-links i{
+.portfolio-links i {
   font-size: 50px;
 }
 
@@ -683,11 +691,14 @@ section {
   color: #728394;
 }
 
-.contact .info .email, .contact .info .phone {
+.contact .info .email,
+.contact .info .phone {
   margin-top: 40px;
 }
 
-.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
   background: #197546;
   color: #fff;
 }
@@ -751,7 +762,8 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form input, .contact .php-email-form textarea {
+.contact .php-email-form input,
+.contact .php-email-form textarea {
   border-radius: 4px;
   box-shadow: none;
   font-size: 14px;
@@ -796,7 +808,6 @@ section {
   }
 }
 
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -831,7 +842,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #39CF81;
+  background: #39cf81;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -859,7 +870,7 @@ section {
 .icon-c-sharp:before {
   content: "\e900";
 }
- .icon-box .icon {
+.icon-box .icon {
   margin: 0 auto;
   width: 100px;
   height: 100px;
@@ -875,7 +886,7 @@ section {
   left: 0;
 }
 .icon-box .icon i {
-    font-size: 36px;
-    transition: 0.5s;
-    position: relative;
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
 }

@@ -5,13 +5,10 @@ export default class Resume extends React.Component {
     education: [
       {
         title: "BTech in Computer Science",
-        timeline: "2018 - present",
+        timeline: "2018 - 2022",
         subtitle:
           "Maharaja Surajmal Institute of Technology, GGSIPU, New Delhi",
-        points: [
-          "CGPA: 9.25 (till 7th semester)",
-          "Percentage: 86.8%",
-        ],
+        points: ["CGPA: 9.34", "Percentage: 87.6%"],
       },
       {
         title: "Class 12, Senior Secondary School Examination",
@@ -28,11 +25,19 @@ export default class Resume extends React.Component {
     ],
     work: [
       {
+        title: "Full Stack Software Developer",
+        timeline: "August 2022 - present",
+        subtitle: "BNY Mellon",
+        points: [
+          " Working in Technology Services Group under the App Engine Team (PaaS) using technologies such as Envoy Proxy, Docker, Golang, Kubernetes, etc.",
+        ],
+      },
+      {
         title: "Winter Intern - Technology",
         timeline: "Jan 2022 - June 2022",
         subtitle: "BNY Mellon",
         points: [
-          " Working in Technology Services Group under the App Engine Team (PaaS) using technologies such as Envoy Proxy, Docker, Golang, MongoDB, etc.",
+          // " Working in Technology Services Group under the App Engine Team (PaaS) using technologies such as Envoy Proxy, Docker, Golang, MongoDB, etc.",
         ],
       },
       {
@@ -50,8 +55,7 @@ export default class Resume extends React.Component {
         timeline: "May 2020 - June 2020",
         subtitle: "Ecera System",
         points: [
-          "Website development for company website.",
-          "Utilized HTML, CSS, JavaScript and PHP for designing and development.",
+          "Utilized HTML, CSS, JavaScript and PHP for designing and developing company website",
           "Worked on different client’s projects using WordPress.",
           "Built an e-commerce website.",
         ],

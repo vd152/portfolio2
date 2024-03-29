@@ -7,57 +7,72 @@ class Skills extends React.Component {
       {
         name: "C/C++",
         percent: 85,
-        icon: "bx bxl-c-plus-plus"
+        icon: "bx bxl-c-plus-plus",
       },
-      {
-        name: "C#",
-        percent: 85,
-        icon: "icon-c-sharp"
-      },
-      {
-        name: ".NET",
-        percent: 85,
-        icon: "icon-c-sharp"
-      },
+      // {
+      //   name: "C#",
+      //   percent: 85,
+      //   icon: "icon-c-sharp",
+      // },
+      // {
+      //   name: "Java",
+      //   percent: 85,
+      //   icon: "fa-brands fa-java",
+      // },
       {
         name: "GOLANG",
         percent: 85,
-        icon: "fa-brands fa-golang"
+        icon: "fa-brands fa-golang",
       },
       {
         name: "JAVASCRIPT",
         percent: 80,
-        icon: "bx bxl-javascript"
+        icon: "bx bxl-javascript",
       },
       {
         name: "NODE.JS",
         percent: 90,
-        icon: "bx bxl-nodejs"
+        icon: "bx bxl-nodejs",
       },
       {
         name: "REACT.JS",
         percent: 85,
-        icon: "bx bxl-react"
+        icon: "bx bxl-react",
       },
       {
         name: "HTML",
         percent: 100,
-        icon: "bx bxl-html5"
+        icon: "bx bxl-html5",
       },
       {
         name: "CSS",
         percent: 90,
-        icon: "bx bxl-css3"
+        icon: "bx bxl-css3",
       },
       {
         name: "MONGODB",
         percent: 85,
-        icon: "bx bxl-mongodb"
+        icon: "bx bxl-mongodb",
       },
       {
         name: "MYSQL",
         percent: 70,
-        icon: "icofont-file-sql"
+        icon: "icofont-file-sql",
+      },
+      {
+        name: "GraphQL",
+        percent: 70,
+        icon: "bx bxl-graphql",
+      },
+      {
+        name: "Docker",
+        percent: 70,
+        icon: "bx bxl-docker",
+      },
+      {
+        name: "Kubernetes",
+        percent: 70,
+        icon: "bx bxl-kubernetes",
       },
     ],
   };
@@ -93,18 +108,13 @@ class Skills extends React.Component {
               return (
                 <div
                   key={key}
-                  className="col-lg-2 col-md-3 d-flex align-items-stretch aos-init aos-animate p-0"
+                  className="col-lg-2 col-md-3 col-4 d-flex align-items-stretch aos-init aos-animate p-0"
                   data-aos="zoom-in"
                   data-aos-delay="100"
                 >
                   <div className="icon-box iconbox-blue">
                     <div className="icon">
-                      <svg
-                        width="100"
-                        height="100"
-                        viewBox="0 0 600 600"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
+                      <svg width="100" height="100" viewBox="0 0 600 600">
                         <path
                           stroke="none"
                           strokeWidth="0"
